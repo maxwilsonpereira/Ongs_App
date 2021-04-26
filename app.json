@@ -1,12 +1,18 @@
 {
-  "name": "mobile",
-  "displayName": "mobile",
+  "name": "My Mobile App",
+  "displayName": "My Mobile App",
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "My Mobile App",
+    "slug": "mymobileapp",
+    "privacy": "public",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E02041"
+    }
   }
 }
